@@ -1,8 +1,4 @@
-  
-
----
-
-# **🔒 Phish Guard – Real-Time Phishing Protection**  
+# **🔒 Phish Guard – Real-Time Phishing Protection** Version 1.a 
 **🛡️ A powerful browser extension that scans URLs in real-time to protect users from phishing attacks.**  
 
 ---
@@ -13,6 +9,16 @@
 ✅ **Dark Web Monitoring** – Checks if your email is exposed in a data breach.  
 ✅ **Sandbox Testing** – Opens suspicious links in a secure sandbox.  
 ✅ **Color-Coded Warnings** – Red for dangerous, green for safe.  
+
+---
+
+## **🔮 Future Updates**  
+🚀 **Suspicious Link IP Tracking** – Track the **origin IP address** of phishing links for deeper investigation.  
+🛠️ **Binary Signature Analysis** – Detect **malware signatures** in downloaded files before execution.  
+📡 **Data Retrieval & Redirection** – Extract and **redirect users to a safe version** of compromised sites.  
+🔎 **Extension-Based Data Extraction** – Try to retrieve and **analyze phishing page content** automatically.  
+
+💡 **Have more feature ideas? Contribute and share!**  
 
 ---
 
@@ -68,5 +74,4 @@
 🚀 **Let’s make the internet a safer place together!** 🔥  
 
 ---
-
 
