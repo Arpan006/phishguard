@@ -31,7 +31,8 @@
 2. **Open Chrome** and go to `chrome://extensions/`.  
 3. **Enable Developer Mode (top-right corner).**  
 4. **Click "Load Unpacked" and select the project folder.**  
-5. **Click the extension icon** to start protecting yourself online!  
+5. **Click the extension icon** to start protecting yourself online!
+6. Note to use the api key from google cloud console and apply it in background.js
 
 ---
 
