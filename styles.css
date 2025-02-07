@@ -5,6 +5,7 @@ body {
     width: 300px;
     background-color: white;
     color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h2, h3 {
@@ -19,11 +20,13 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
     background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 input[type="email"] {
@@ -31,6 +34,12 @@ input[type="email"] {
     padding: 10px;
     margin: 5px 0;
     box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"]:focus {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 #leaderboard li {
@@ -65,21 +74,28 @@ input[type="email"] {
 
 /* Dark mode styles */
 body.dark-mode {
-    background-color: #121212;
+    background: linear-gradient(135deg, #1e1e1e, #121212);
     color: white;
 }
 
 button.dark-mode {
     background-color: #333;
     color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 button.dark-mode:hover {
     background-color: #555;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }
 
 input[type="email"].dark-mode {
     background-color: #333;
     color: white;
     border: 1px solid #555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+input[type="email"].dark-mode:focus {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }

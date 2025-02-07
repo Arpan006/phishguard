@@ -58,7 +58,15 @@ async function checkBreach() {
     }
 
     // Simulate breach check
-    alert(`⚠️ Simulated breach check for ${email}. No actual API call made.`);
+    const breachResult = document.getElementById('breachResult');
+    const breached = Math.random() > 0.5; // Randomly simulate breach result
+    if (breached) {
+        breachResult.innerText = `⚠️ Simulated breach found for ${email}.`;
+        breachResult.style.color = 'red';
+    } else {
+        breachResult.innerText = `✅ No simulated breach found for ${email}.`;
+        breachResult.style.color = 'green';
+    }
 }
 
 function sandboxTest() {
