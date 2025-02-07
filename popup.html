@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phish Guard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Phish Guard</h2>
+    <p>Status: <span id="status">Scanning...</span></p>
+    
+    <button id="reportPhish">Report Phishing</button>
+    <h3>Leaderboard</h3>
+    <ul id="leaderboard"></ul>
+
+    <h3>Dark Web Check</h3>
+    <input type="email" id="email" placeholder="Enter email to check">
+    <button id="checkBreach">Check Breach</button>
+    <p id="breachResult"></p>
+
+    <h3>Sandbox Testing</h3>
+    <button id="sandboxTest">Open in Sandbox</button>
+
+    <h3>Risk Meter</h3>
+    <button id="checkRisk">Check URL Risk</button>
+    <p id="riskMeter">Risk Level: Unknown</p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
