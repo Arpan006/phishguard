@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyBVKRpkU1uL_M5hxYn0yFYt8DtQHJ1y1JM'; // Replace with your API key
+const apiKey = 'your api key'; // Replace with your API key
 
 chrome.runtime.onInstalled.addListener(() => {
     console.log('Phish Guard extension installed');
