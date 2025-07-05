@@ -54,7 +54,6 @@
 ## **👨‍👩‍👧‍👦 Team CUDEE**  
 - 🎯 **Parardha Dhar**  
 - 🎯 **Aaryan Maurya**  
-- 🎯 **Varuni Sood**  
 - 🎯 **Arpan Aggarwal**  
 - 🎯 **Haardik Paheljani**  
 
